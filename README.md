@@ -46,3 +46,26 @@ $ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+
+### Crowdin
+
+To do a download of current translations
+
+You must input your crowdin api key in the crowdin.yml file
+
+```
+api_token: <CROWDIN_PERSONAL_TOKEN>
+
+```
+
+then you will be able to download the translation with the command below
+
+```
+yarn run crowdin download
+```
+
+For simplified chinese make sure the i18n/zn is updated to i18n/zn-Hans
+
+Then follow the deployment instructions to updated translations
+

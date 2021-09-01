@@ -1,12 +1,16 @@
 module.exports = {
   title: 'Chialisp',
   tagline: 'Developing with Chialisp',
-  url: 'https://chialisp.com',
-  baseUrl: '/',
+  url: 'http://cpp6d.github.io/chialisp-web/',
+  baseUrl: '/chialisp-web/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'Chia-Network', // Usually your GitHub org/user name.
+  organizationName: 'cpp6d', // Usually your GitHub org/user name.
   projectName: 'chialisp-web', // Usually your repo name.
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'zh-Hans'],
+  },
   themeConfig: {
     prism: {
       darkTheme: require('./src/theme/prism-dark-theme-chialisp'),
@@ -32,6 +36,10 @@ module.exports = {
         {
           href: 'https://github.com/Chia-Network/chialisp-web',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          type: 'localeDropdown',
           position: 'right',
         },
       ],
