@@ -65,7 +65,5 @@ then you will be able to download the translation with the command below
 yarn run crowdin download
 ```
 
-For simplified chinese make sure the i18n/zn is updated to i18n/zn-Hans
-
 Then follow the deployment instructions to updated translations
 
