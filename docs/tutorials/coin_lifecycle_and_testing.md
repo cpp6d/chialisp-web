@@ -24,7 +24,6 @@ You can download the piggybank coin example files [here](/files/Piggybank_Exampl
 <figure class="video-container">
 <iframe src="//www.youtube.com/embed/_SBGfMZhRd8" frameborder="0" allowfullscreen width="100%"></iframe>
 </figure>
-<a href="/static/files/tutorials/4-Securing_a_Smart_Coin_Slides-Chialisp.pdf" download>Video 4 Slides Download</a>
 
 ## 5 - Currying
 <figure class="video-container">
@@ -53,4 +52,4 @@ You can download the piggybank coin example files [here](/files/Piggybank_Exampl
 
 ---
 
-If you have further questions, join [Chia Network's public Keybase team](https://keybase.io/team/chia_network.public) and ask in the *#chialisp* channel.
+If you have further questions, join [Chia Network's public Keybase team](https://keybase.io/team/chia_network.public) and ask in the _#chialisp_ channel.
